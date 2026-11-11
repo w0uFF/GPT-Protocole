@@ -1,4 +1,4 @@
-# ChatGPT General Protocol — v3 FINAL
+# ChatGPT General Protocol — 
 No more Drunkgpt, Only GigaChadGPT
 
 Testé avec ChatGPT Plus.

@@ -1,4 +1,4 @@
-# ChatGPT General Protocol — v3 FINAL
+# ChatGPT General Protocol 
 
 **Un protocole gratuit et généraliste pour travailler avec ChatGPT de manière plus structurée : étapes utiles, suivi du contexte, vérifications explicites et continuation avec remarques.**
 

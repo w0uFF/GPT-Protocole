@@ -28,7 +28,7 @@ Il aide à passer d'une simple réponse à un travail suivi : exécution immédi
 **Option A — télécharger le dépôt**
 
 1. Cliquez sur **Code → Download ZIP** sur GitHub, puis extrayez l'archive.
-2. Dans ChatGPT, joignez les documents Markdown du protocole (ou une archive ZIP si votre interface sait en lire le contenu).
+2. Dans ChatGPT, joignez l'archive ZIP.
 3. Ouvrez [`PROMPT_DE_DEMARRAGE.md`](PROMPT_DE_DEMARRAGE.md), copiez le prompt qu'il contient, remplacez `[MA DEMANDE]` par votre objectif et envoyez-le.
 
 **Option B — copier les fichiers**

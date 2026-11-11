@@ -33,6 +33,8 @@ Instead of writing a fresh "continue" prompt after every step, you can use a con
 | **Modular organization** | Use an optional MVC-inspired separation for complex projects, without imposing it on simple tasks. |
 | **Meaningful completion** | Stop when the task is done instead of adding artificial phases. |
 
+**Protocol source files:** [English (`en/`)](en/START_HERE.md) · [French (`fr/`)](fr/START_HERE.md)
+
 ## Download & install
 
 | English | French |
@@ -103,8 +105,8 @@ If no human check is needed, the status is `HUMAN VERIFICATION: NOT REQUIRED`. C
 - **[English setup guide](docs/README.en.md)** — full instructions, Project setup, and alternatives.
 - **[Guide français](docs/README.fr.md)** — installation et utilisation en français.
 - **[English protocol source](en/START_HERE.md)** — protocol documents for inspection and contribution.
-- **[French protocol source](START_HERE.md)** — documents du protocole en français.
-- **[Contributing](CONTRIBUTING.md)** — contribution guidelines.
+- **[French protocol source](fr/START_HERE.md)** — documents du protocole en français.
+- **[Contributing](fr/CONTRIBUTING.md)** — contribution guidelines.
 
 ## Compatibility & limitations
 

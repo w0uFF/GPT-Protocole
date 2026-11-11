@@ -42,6 +42,8 @@ Sans protocole, vous devez souvent rappeler ce qui a été décidé et rédiger 
 
 ---
 
+> **Organisation du dépôt :** les fichiers sources français sont dans [`fr/`](../fr/START_HERE.md). Le ZIP de la Release est un paquet autonome.
+
 ## Installation recommandée : créer un Projet ChatGPT
 
 C'est la méthode à privilégier pour réutiliser le protocole dans **plusieurs conversations d'un même projet**, sans avoir à joindre les fichiers à chaque nouveau chat.
@@ -71,11 +73,11 @@ C'est la méthode à privilégier pour réutiliser le protocole dans **plusieurs
 
 | Fichier | Rôle |
 | --- | --- |
-| [`RULES.md`](../RULES.md) | Règles à appliquer pendant le travail |
-| [`WORKFLOW.md`](../WORKFLOW.md) | Étapes, reprise et achèvement |
-| [`CONTINUATION_UI.md`](../CONTINUATION_UI.md) | Remarques, aperçu, Continuer et Copier |
-| [`QUALITE_ET_VERIFICATION.md`](../QUALITE_ET_VERIFICATION.md) | Vérifications humaines et autorisations |
-| [`ARCHITECTURE_MODULAIRE.md`](../ARCHITECTURE_MODULAIRE.md) | Modularité facultative pour les travaux complexes |
+| [`RULES.md`](../fr/RULES.md) | Règles à appliquer pendant le travail |
+| [`WORKFLOW.md`](../fr/WORKFLOW.md) | Étapes, reprise et achèvement |
+| [`CONTINUATION_UI.md`](../fr/CONTINUATION_UI.md) | Remarques, aperçu, Continuer et Copier |
+| [`QUALITE_ET_VERIFICATION.md`](../fr/QUALITE_ET_VERIFICATION.md) | Vérifications humaines et autorisations |
+| [`ARCHITECTURE_MODULAIRE.md`](../fr/ARCHITECTURE_MODULAIRE.md) | Modularité facultative pour les travaux complexes |
 
 **Recommandé :** ajoutez également `START_HERE.md`, `PROMPT_DE_DEMARRAGE.md`, `EXEMPLES.md` et les modèles du dossier `Templates/`. Les limites d'importation dépendent de votre offre ChatGPT. Importer les fichiers séparément est plus fiable que de supposer que ChatGPT pourra lire un ZIP dans tous les environnements.
 
@@ -116,7 +118,7 @@ Les projets peuvent utiliser leurs conversations et fichiers comme contexte, sel
 - **Mémoire limitée au projet (*Project-only*)** : le contexte reste cantonné aux conversations du projet. Utile pour éviter de mélanger des projets distincts.
 - **Mémoire par défaut (*Default*)** : le comportement dépend de votre abonnement et de vos paramètres de mémoire personnels.
 
-**Attention :** ce n'est pas une « mémoire permanente » qui conserve mot pour mot l'ensemble du protocole et de toutes vos décisions. Gardez les documents dans les **sources du projet** et utilisez les modèles [`Templates/ETAT_ET_REPRISE.md`](../Templates/ETAT_ET_REPRISE.md) et [`Templates/JOURNAL_DECISIONS.md`](../Templates/JOURNAL_DECISIONS.md) pour des reprises importantes. Si la mémoire n'est pas disponible ou désactivée, les instructions et les fichiers du projet restent la base explicite de travail, dans la limite de leur accessibilité.
+**Attention :** ce n'est pas une « mémoire permanente » qui conserve mot pour mot l'ensemble du protocole et de toutes vos décisions. Gardez les documents dans les **sources du projet** et utilisez les modèles [`Templates/ETAT_ET_REPRISE.md`](../fr/Templates/ETAT_ET_REPRISE.md) et [`Templates/JOURNAL_DECISIONS.md`](../fr/Templates/JOURNAL_DECISIONS.md) pour des reprises importantes. Si la mémoire n'est pas disponible ou désactivée, les instructions et les fichiers du projet restent la base explicite de travail, dans la limite de leur accessibilité.
 
 **Conversation existante :** si ChatGPT propose **Déplacer vers le projet** dans le menu d'un chat, vous pouvez l'utiliser. Le chat hérite alors des instructions et sources du projet. Certaines conversations ne peuvent pas être déplacées.
 
@@ -128,7 +130,7 @@ Vous ne voulez pas créer de Projet ChatGPT ?
 
 1. Ouvrez une conversation normale.
 2. Joignez les fichiers du protocole, ou le ZIP si votre interface sait réellement en consulter le contenu.
-3. Copiez le texte de [`PROMPT_DE_DEMARRAGE.md`](../PROMPT_DE_DEMARRAGE.md), remplacez `[MA DEMANDE]` par votre objectif et envoyez-le.
+3. Copiez le texte de [`PROMPT_DE_DEMARRAGE.md`](../fr/PROMPT_DE_DEMARRAGE.md), remplacez `[MA DEMANDE]` par votre objectif et envoyez-le.
 4. Pour une nouvelle conversation indépendante, redonnez-lui les règles nécessaires. **Un message dans un chat n'active pas automatiquement le protocole dans tous les autres chats.**
 
 ### Peut-on demander à ChatGPT de mémoriser le protocole pour toutes les conversations ?
@@ -164,32 +166,32 @@ Lorsque le travail comporte une prochaine étape utile, l'expérience attendue e
 
 Les remarques sont conservées dans leur formulation d'origine puis reformulées fidèlement en consignes d'exécution au tour suivant. Un clic ne constitue **jamais** la preuve qu'une vérification manuelle est réussie.
 
-**Les boutons ne sont pas garantis.** Leur présence dépend de l'interface ChatGPT et de ses capacités à afficher des contrôles interactifs réels. Si elle ne les prend pas en charge, ChatGPT doit proposer du texte à copier et ne pas simuler de boutons décoratifs. Voir [`CONTINUATION_UI.md`](../CONTINUATION_UI.md).
+**Les boutons ne sont pas garantis.** Leur présence dépend de l'interface ChatGPT et de ses capacités à afficher des contrôles interactifs réels. Si elle ne les prend pas en charge, ChatGPT doit proposer du texte à copier et ne pas simuler de boutons décoratifs. Voir [`CONTINUATION_UI.md`](../fr/CONTINUATION_UI.md).
 
 ## Vérification humaine : obligatoire à chaque phase
 
 - `VÉRIFICATION HUMAINE : REQUIRED` — une intervention est indispensable ; ChatGPT explique quoi vérifier, le résultat attendu et comment répondre. Une phase bloquée ne peut pas être déclarée validée sans retour.
 - `VÉRIFICATION HUMAINE : NOT REQUIRED` — aucune intervention manuelle indispensable n'est requise pour terminer ou poursuivre.
 
-Une autorisation de modifier, d'envoyer ou de publier quelque chose est distincte de la vérification d'un résultat. Voir [`QUALITE_ET_VERIFICATION.md`](../QUALITE_ET_VERIFICATION.md).
+Une autorisation de modifier, d'envoyer ou de publier quelque chose est distincte de la vérification d'un résultat. Voir [`QUALITE_ET_VERIFICATION.md`](../fr/QUALITE_ET_VERIFICATION.md).
 
 ## Structure du dépôt
 
 | Fichier | Contenu |
 | --- | --- |
 | [`README.md`](../README.md) | Présentation et installation détaillée |
-| [`START_HERE.md`](../START_HERE.md) | Prise en main rapide |
-| [`PROMPT_DE_DEMARRAGE.md`](../PROMPT_DE_DEMARRAGE.md) | Prompt universel à copier |
-| [`RULES.md`](../RULES.md) | Règles générales |
-| [`WORKFLOW.md`](../WORKFLOW.md) | Phases, état, reprise, clôture |
-| [`CONTINUATION_UI.md`](../CONTINUATION_UI.md) | Continuation, remarques, boutons et fallback |
-| [`QUALITE_ET_VERIFICATION.md`](../QUALITE_ET_VERIFICATION.md) | Vérifications, permissions et blocages |
-| [`ARCHITECTURE_MODULAIRE.md`](../ARCHITECTURE_MODULAIRE.md) | Organisation modulaire facultative |
-| [`EXEMPLES.md`](../EXEMPLES.md) | Exemples d'utilisation |
-| [`Templates/ETAT_ET_REPRISE.md`](../Templates/ETAT_ET_REPRISE.md) | État de reprise |
-| [`Templates/JOURNAL_DECISIONS.md`](../Templates/JOURNAL_DECISIONS.md) | Suivi des décisions |
-| [`CHANGELOG.md`](../CHANGELOG.md) | Historique des versions |
-| [`CONTRIBUTING.md`](../CONTRIBUTING.md) | Contributions et signalements |
+| [`START_HERE.md`](../fr/START_HERE.md) | Prise en main rapide |
+| [`PROMPT_DE_DEMARRAGE.md`](../fr/PROMPT_DE_DEMARRAGE.md) | Prompt universel à copier |
+| [`RULES.md`](../fr/RULES.md) | Règles générales |
+| [`WORKFLOW.md`](../fr/WORKFLOW.md) | Phases, état, reprise, clôture |
+| [`CONTINUATION_UI.md`](../fr/CONTINUATION_UI.md) | Continuation, remarques, boutons et fallback |
+| [`QUALITE_ET_VERIFICATION.md`](../fr/QUALITE_ET_VERIFICATION.md) | Vérifications, permissions et blocages |
+| [`ARCHITECTURE_MODULAIRE.md`](../fr/ARCHITECTURE_MODULAIRE.md) | Organisation modulaire facultative |
+| [`EXEMPLES.md`](../fr/EXEMPLES.md) | Exemples d'utilisation |
+| [`Templates/ETAT_ET_REPRISE.md`](../fr/Templates/ETAT_ET_REPRISE.md) | État de reprise |
+| [`Templates/JOURNAL_DECISIONS.md`](../fr/Templates/JOURNAL_DECISIONS.md) | Suivi des décisions |
+| [`CHANGELOG.md`](../fr/CHANGELOG.md) | Historique des versions |
+| [`CONTRIBUTING.md`](../fr/CONTRIBUTING.md) | Contributions et signalements |
 
 ## Limites et remarques
 
@@ -207,7 +209,7 @@ Une autorisation de modifier, d'envoyer ou de publier quelque chose est distinct
 
 ## Version
 
-Version du protocole : **v1.0.0**. Voir [`CHANGELOG.md`](../CHANGELOG.md).
+Version du protocole : **v1.0.0**. Voir [`CHANGELOG.md`](../fr/CHANGELOG.md).
 
 ---
 

@@ -1,0 +1,11 @@
+Short GitHub About description:
+General-purpose ChatGPT workflow protocol: phased execution, human verification, contextual follow-ups, and Continue/Copy prompts when supported.
+
+Suggested topics:
+chatgpt, prompt-engineering, productivity, ai-workflow, markdown, french, english, bilingual, templates
+
+Release title:
+ChatGPT General Protocol v1.0.0 — English
+
+Release description:
+Bilingual release (French and English): structured general-purpose workflow, HUMAN VERIFICATION REQUIRED / NOT REQUIRED at every phase, continuity across longer tasks, optional modular organization, and a continuation interface with notes, preview, Continue, and Copy (depending on client capabilities). See the included README.md for the English installation guide.

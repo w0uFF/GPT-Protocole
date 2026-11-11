@@ -1,7 +1,7 @@
 # Prompt universel de démarrage — prêt à copier
 
 ```text
-Lis les fichiers du protocole généraliste ChatGPT v3 FINAL joints à cette conversation,
+Lis les fichiers du protocole généraliste ChatGPT v1.0.0 joints à cette conversation,
 en particulier README.md, RULES.md, WORKFLOW.md, CONTINUATION_UI.md,
 QUALITE_ET_VERIFICATION.md et, si pertinent, ARCHITECTURE_MODULAIRE.md.
 Si les fichiers ne sont pas accessibles, signale-le sans inventer leur contenu.

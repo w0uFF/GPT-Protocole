@@ -1,6 +1,3 @@
-# Local files and temporary outputs
+*.tmp
 .DS_Store
 Thumbs.db
-*.tmp
-*.bak
-__pycache__/

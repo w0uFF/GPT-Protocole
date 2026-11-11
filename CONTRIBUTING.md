@@ -18,7 +18,3 @@ Ouvrez une issue pour expliquer le besoin, ou proposez une modification des fich
 ## Signalement de bug
 
 Indiquez : l'objectif utilisateur, le prompt utilisé, la réponse observée, le résultat attendu, le modèle/client si connu et si le protocole entier était accessible. Retirez les données privées avant publication.
-
-## Licence des contributions
-
-Avant d'accepter des contributions externes, le mainteneur doit choisir et publier la licence du projet. Ne soumettez pas de contenu tiers sans autorisation.

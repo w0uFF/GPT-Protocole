@@ -1,9 +1,20 @@
-# ChatGPT General Protocol 
-No more DrunkGPT, only GigaChadGPT
+# ChatGPT General Protocol — v3 FINAL
 
 **Un protocole gratuit et généraliste pour travailler avec ChatGPT de manière plus structurée : étapes utiles, suivi du contexte, vérifications explicites et continuation avec remarques.**
 
 > **Testé avec ChatGPT Plus.** Ce projet est indépendant et non officiel ; il n'est pas développé par OpenAI. Il ne s'agit pas d'une extension à installer : ce sont des fichiers d'instructions que vous donnez à ChatGPT.
+
+## Démonstration vidéo : installation et exemple d’utilisation
+
+Cette vidéo montre **comment installer le protocole dans ChatGPT**, puis **un exemple d’utilisation sur une tâche du quotidien**. C’est le moyen le plus simple de découvrir le fonctionnement avant de suivre le guide écrit ci-dessous.
+
+[![Voir la démonstration du protocole ChatGPT sur YouTube](https://img.youtube.com/vi/68u8D3C0kHA/hqdefault.jpg)](https://www.youtube.com/watch?v=68u8D3C0kHA)
+
+**[Regarder la vidéo complète sur YouTube](https://www.youtube.com/watch?v=68u8D3C0kHA)**
+
+> GitHub ne permet pas de lire une vidéo YouTube directement dans un README. Cliquez sur la miniature ou le lien pour ouvrir la vidéo sur YouTube.
+
+---
 
 ## À quoi ça sert ?
 

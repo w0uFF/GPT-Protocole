@@ -1,4 +1,5 @@
 # ChatGPT General Protocol — v3 FINAL
+No more Drunkgpt, Only GigaChadGPT
 
 **Un protocole de travail généraliste pour utiliser ChatGPT de manière plus structurée, sans compétences techniques.**
 

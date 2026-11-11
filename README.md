@@ -197,11 +197,9 @@ Une autorisation de modifier, d'envoyer ou de publier quelque chose est distinct
 - [Instructions personnalisées — OpenAI Help Center](https://help.openai.com/en/articles/8096356-custom-instructions-for-chatgpt)
 - [Créer et modifier un GPT personnalisé — OpenAI Help Center](https://help.openai.com/en/articles/8770868-creating-a-gpt)
 
-## Version et licence
+## Version
 
 Version du protocole : **v3 FINAL**. Voir [`CHANGELOG.md`](CHANGELOG.md).
-
-**Licence à choisir avant publication.** Aucun droit de réutilisation n'est accordé automatiquement sans licence explicite ; voir [`LICENCE_A_CHOISIR.md`](LICENCE_A_CHOISIR.md).
 
 ---
 

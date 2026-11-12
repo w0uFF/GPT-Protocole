@@ -13,7 +13,8 @@
 ### [Video Guide & Usage Example](https://www.youtube.com/watch?v=coU8KSVffeQ)
 
 </div>
-
+I also have a MUCH more advanced version built for large, long-term projects, with modular architecture, structured workflows, and support for both solo and team-based development.
+If enough people are interested, I'll release it too!
 ---
 
 ## What is this?
@@ -103,6 +104,14 @@ Watch the silent step-by-step installation and usage demonstration. It shows how
 [![Watch the ChatGPT General Protocol installation and usage tutorial](https://img.youtube.com/vi/coU8KSVffeQ/hqdefault.jpg)](https://www.youtube.com/watch?v=coU8KSVffeQ)
 
 **[Watch the full video guide & usage example on YouTube](https://www.youtube.com/watch?v=coU8KSVffeQ)**
+
+## Advanced protocol for large projects
+
+I also have a **much more advanced version** built for large, long-term projects, with modular architecture, structured workflows, and support for both **solo and team-based development**.
+
+**If enough people are interested, I’ll release it too!**
+
+This advanced version is not included in the current general-purpose release.
 
 ## Documentation
 

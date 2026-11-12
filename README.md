@@ -33,8 +33,6 @@ Instead of writing a fresh prompt after every step, you can use a continuation i
 | **Modular organization** | Use an optional MVC-inspired separation for complex projects, without imposing it on simple tasks. |
 | **Meaningful completion** | Stop when the task is done instead of adding artificial phases. |
 
-**Protocol source files:** [English (`en/`)](en/START_HERE.md) · [French (`fr/`)](fr/START_HERE.md)
-
 ## Download & install
 
 | English | French |

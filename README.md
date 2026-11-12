@@ -20,7 +20,7 @@
 
 ChatGPT General Protocol is a set of **Markdown instructions**, not a separate app or browser extension. It encourages ChatGPT to complete straightforward requests directly and break down complex work into useful, verifiable phases.
 
-Instead of writing a fresh "continue" prompt after every step, you can use a continuation interface that **incorporates your feedback, previews the next prompt, and lets you either send it or copy it**—when supported by your ChatGPT interface.
+Instead of writing a fresh prompt after every step, you can use a continuation interface that **incorporates your feedback, previews the next prompt, and lets you either send it or copy it**—when supported by your ChatGPT interface.
 
 ### What it adds
 

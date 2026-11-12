@@ -10,6 +10,8 @@
 
 ### [Download French](https://github.com/w0uFF/GPT-Protocole/releases/download/v1.0.0/GPT-Protocol-FR.zip) · [French Installation Guide](docs/README.fr.md)
 
+### [Video Guide & Usage Example](https://www.youtube.com/watch?v=coU8KSVffeQ)
+
 </div>
 
 ---
@@ -96,9 +98,11 @@ If no human check is needed, the status is `HUMAN VERIFICATION: NOT REQUIRED`. C
 
 ## Video tutorial
 
-**New silent installation and usage demonstration coming soon.** It will show downloading the correct language ZIP from GitHub Releases, setting up a ChatGPT Project, and using the feedback/Continue/Copy workflow.
+Watch the silent step-by-step installation and usage demonstration. It shows how to download the protocol, configure a ChatGPT Project, and use it to organize a move, including the feedback and continuation workflow.
 
-<!-- Replace this paragraph with a clickable YouTube thumbnail when the new video is published. -->
+[![Watch the ChatGPT General Protocol installation and usage tutorial](https://img.youtube.com/vi/coU8KSVffeQ/hqdefault.jpg)](https://www.youtube.com/watch?v=coU8KSVffeQ)
+
+**[Watch the full video guide & usage example on YouTube](https://www.youtube.com/watch?v=coU8KSVffeQ)**
 
 ## Documentation
 

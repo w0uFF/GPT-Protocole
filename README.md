@@ -13,8 +13,6 @@
 ### [Video Guide & Usage Example](https://www.youtube.com/watch?v=coU8KSVffeQ)
 
 </div>
-I also have a MUCH more advanced version built for large, long-term projects, with modular architecture, structured workflows, and support for both solo and team-based development.
-If enough people are interested, I'll release it too!
 ---
 
 ## What is this?

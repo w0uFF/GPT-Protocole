@@ -13,7 +13,6 @@
 ### [Video Guide & Usage Example](https://www.youtube.com/watch?v=coU8KSVffeQ)
 
 </div>
----
 
 ## What is this?
 
